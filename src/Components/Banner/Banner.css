@@ -1,0 +1,25 @@
+@keyframes backgroundAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes contentAnimation {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-background {
+    animation: backgroundAnimation 1s ease forwards;
+  }
+  
+  .animate-content {
+    animation: contentAnimation 1s ease forwards;
+  }
