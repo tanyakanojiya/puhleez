@@ -3,7 +3,7 @@ import React from 'react'
 const Cards = () => {
   return (
     <div className='mx-auto px-[5rem] py-[7rem] flex justify-between items-center gap- flex-wrap'>
-        <div className='p-2'>
+        <div className='p-2 sm:w-auto sm:mx-auto sm:my-6 md:my-4 md:w-1/3'>
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:scale-105 transition-transform duration-300">
       <img
         className="w-full h-48 object-cover"
@@ -17,7 +17,7 @@ const Cards = () => {
     </div>
     </div>
 
-    <div className='p-2'>
+    <div className='p-2 sm:w-auto sm:mx-auto sm:my-6 md:my-4 md:w-1/3'>
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:scale-105 transition-transform duration-300">
       <img
         className="w-full h-48 object-cover"
@@ -33,7 +33,7 @@ const Cards = () => {
     </div>
     </div>
 
-    <div className='p-2'>
+    <div className='p-2 sm:w-auto sm:mx-auto sm:my-6 md:my-4 md:w-1/3'>
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:scale-105 transition-transform duration-300">
       <img
         className="w-full h-48 object-cover"
